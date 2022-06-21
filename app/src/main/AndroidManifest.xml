@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zedrcap.dhaivat.caption">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/finalapplogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Attitude"></activity>
+        <activity android:name=".Love"></activity>
+        <activity android:name=".Friends"></activity>
+        <activity android:name=".Night"></activity>
+        <activity android:name=".Emotion"></activity>
+        <activity android:name=".Enemy"></activity>
+        <activity android:name=".Travel"></activity>
+        <activity android:name=".Photography"></activity>
+        <activity android:name=".Nature"></activity>
+        <activity android:name=".Random"></activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5821701304747047~7236580705"/>
+
+    </application>
+
+</manifest>

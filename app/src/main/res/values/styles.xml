@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#202020</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="common1">
+        <item name="android:layout_marginRight">17dp</item>
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="common2">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="List_style">
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="layout_constraintTop_toBottomOf">@id/adView</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+</resources>

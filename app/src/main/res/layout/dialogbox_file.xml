@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        app:cardUseCompatPadding="true"
+        app:cardMaxElevation="10dp"
+        app:cardCornerRadius="3dp"
+        android:elevation="7dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ads"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:src="@mipmap/dhaivatlodo22"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <!--<LinearLayout
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+       &lt;!&ndash; <Button
+            android:id="@+id/yes"
+            android:layout_marginRight="10dp"
+            android:background="#287880"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="50dp"
+            android:text="Yes"
+            android:textColor="#ffffff"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/no"
+            android:layout_marginLeft="10dp"
+            android:background="#287880"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:textColor="#ffffff"
+            android:layout_height="50dp"
+            android:text="No"
+            android:textSize="18sp"/>
+
+            &ndash;&gt;
+
+
+
+    </LinearLayout>-->
+
+</LinearLayout>

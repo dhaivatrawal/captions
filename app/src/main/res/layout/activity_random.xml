@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Random">
+
+    <LinearLayout
+        android:id="@+id/linbha"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="68dp"
+        android:background="#FFFFFF">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@mipmap/logo10"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:text="Random"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textSize="35dp"
+            android:fontFamily="@font/font10"
+            android:textColor="#DC143C"/>
+
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintTop_toBottomOf="@id/linbha"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_adds">
+    </com.google.android.gms.ads.AdView>
+    <ListView
+        android:id="@+id/list10"
+        style="@style/List_style"
+        tools:ignore="MissingConstraints">
+
+    </ListView>
+</androidx.constraintlayout.widget.ConstraintLayout>
